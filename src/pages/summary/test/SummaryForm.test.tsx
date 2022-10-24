@@ -60,7 +60,7 @@ test("popover responds to hover", async () => {
   await user.hover(termsAndConditions);
   // Need to research for popover -
   // this time we can use Get as it should be in the document
-  const popover = screen.getByText(/no ice cream will be actually delivered/i);
+  const popover = screen.getByText(/no ice cream will actually be delivered/i);
   // Check if popover exists
   expect(popover).toBeInTheDocument();
 
