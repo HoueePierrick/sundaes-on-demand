@@ -4,7 +4,7 @@
 // learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom";
 
-// Added on here
+// Added on here === mock server test
 import { server } from "./mocks/server";
 // Establish API mocking before all tests
 beforeAll(() => server.listen);
